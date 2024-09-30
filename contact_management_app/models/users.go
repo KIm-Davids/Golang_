@@ -5,6 +5,9 @@ type UserDetails struct {
 	LastName    string
 	Email       string
 	PhoneNumber string
+	Password    string
+	LoginStatus string
+	Id          int
 }
 
 func (o *UserDetails) GetFirstName() string {

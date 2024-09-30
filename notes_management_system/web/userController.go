@@ -1,2 +1,5 @@
 package web
 
+func payment() {
+
+}

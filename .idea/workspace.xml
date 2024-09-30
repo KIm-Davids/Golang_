@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae9a51c8-b3f9-45ed-833c-724ae8fe14fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classTask/classTaskOne.go" beforeDir="false" afterPath="$PROJECT_DIR$/classTask/classTaskOne.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/dtos/request/CreateContactRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/dtos/request/CreateContactRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/dtos/request/LoginRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/dtos/request/LoginRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/dtos/request/RegisterUserRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/dtos/request/RegisterUserRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/dtos/response/ApiResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/dtos/response/ApiResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/models/users.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/models/users.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/service/contactServices.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/service/contactServices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/service/userServices.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/service/userServices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/validations/registerUserValidations.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/validations/registerUserValidations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_management_app/web/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/contact_management_app/web/userController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes_management_system/web/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/notes_management_system/web/userController.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.23.1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mLx3VORX5lpHFZVd9MMvFwwur1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

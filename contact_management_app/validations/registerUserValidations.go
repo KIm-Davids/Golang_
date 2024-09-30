@@ -1,8 +1,10 @@
 package validations
 
 import (
+	"log"
 	request2 "project/dtos/request"
 	"project/repository"
+	"regexp"
 	"strings"
 )
 
@@ -24,7 +26,7 @@ func EmailValidation(request request2.RegisterUserRequest) bool {
 	}
 }
 
-func CheckForUserInTheDb(request request2.RegisterUserRequest) bool {
+func CheckForUserInTheDb(request request2.RegisterUserRequest) interface{} {
 	users := repository.RetrieveValuesFromTheDb()
 
 	for _, values := range users {
@@ -37,8 +39,14 @@ func CheckForUserInTheDb(request request2.RegisterUserRequest) bool {
 
 func CheckPhoneNumberLength(request request2.RegisterUserRequest) bool {
 
-	if len(request.PhoneNumber) != 11 {
-		return false
+	var regexPattern, err = regexp.Compile(`^\d{11}$`)
+	if err != nil {
+		log.Fatalf("An error occurred with the regex %v", err)
 	}
-	return true
+
+	if regexPattern.MatchString(request.PhoneNumber) {
+		return true
+	}
+	return false
+
 }

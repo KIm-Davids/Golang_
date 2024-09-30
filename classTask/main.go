@@ -1,0 +1,96 @@
+package main
+
+import (
+	"fmt"
+)
+
+func printValuesFromOddIndex(array []int) {
+	var newArray [10]int
+	var counter int
+	var result int
+
+	for counter = 1; counter < len(array); counter += 2 {
+		newArray[counter] = array[counter]
+	}
+
+	fmt.Print(newArray)
+
+	for counter = 1; counter < len(array); counter += 2 {
+		result += array[counter]
+	}
+
+	fmt.Println("\n", result)
+}
+
+func printValuesFromEvenIndex(array []int) {
+	var newArray [10]int
+	var counter int
+	var result int
+
+	for counter = 0; counter < len(array); counter += 2 {
+		newArray[counter] = array[counter]
+	}
+	fmt.Print(newArray)
+
+	for counter = 0; counter < len(array); counter += 2 {
+		result += array[counter]
+	}
+
+	fmt.Println("\n", result)
+}
+
+func printValuesFromArrayHorizontally() {
+	numbers, err := InputValuesIntoArray()
+
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(numbers)
+}
+
+func printValuesFromArrayVertically() {
+	var counter int
+	numbers, err := InputValuesIntoArray()
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	for counter = 0; counter < len(numbers); counter++ {
+		fmt.Println(numbers[counter])
+
+	}
+}
+
+func InputValuesIntoArray() ([10]int, error) {
+	var numbers int
+
+	var counter int
+	var array [10]int
+
+	for counter = 0; counter < 10; counter++ {
+		fmt.Println("Enter 10 numbers")
+		fmt.Scan(&numbers)
+		array[counter] = numbers
+	}
+	return array, nil
+
+}
+
+func printName() {
+	var name interface{}
+	fmt.Print("Enter a name")
+	//name := fmt.Scanner(&name)
+	fmt.Print("Hello", name)
+
+}
+
+func main() {
+
+	//array := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	//printValuesFromArrayVertically()
+	//printValuesFromArrayHorizontally()
+	//printValuesFromEvenIndex(array)
+	//printValuesFromOddIndex(array)
+
+}
