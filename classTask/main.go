@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"regexp"
 )
 
 func printValuesFromOddIndex(array []int) {
@@ -82,7 +83,27 @@ func printName() {
 	fmt.Print("Enter a name")
 	//name := fmt.Scanner(&name)
 	fmt.Print("Hello", name)
+}
 
+func containsAllAlphabet(alphabet string) bool {
+	regexCheck := `^[a-zA-Z]`
+	check := regexp.MustCompile(regexCheck)
+
+	if check.MatchString(alphabet) {
+		return true
+	}
+	return false
+}
+
+func checkLetters(word string) bool {
+	var array []string
+	newArray := append(array, word)
+	for index, values := range newArray {
+		if values[index] == values[index+1] {
+			return true
+		}
+	}
+	return false
 }
 
 func main() {
@@ -92,5 +113,8 @@ func main() {
 	//printValuesFromArrayHorizontally()
 	//printValuesFromEvenIndex(array)
 	//printValuesFromOddIndex(array)
+	//fmt.Print(containsAllAlphabet("d"))
+	fmt.Print(checkLetters("hheelloo" +
+		""))
 
 }
